@@ -1,14 +1,14 @@
 import React from 'react'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
-import CompanyLogo from './images/linkedin.png';
-import HeaderOptions from './HeaderOptions';
+import CompanyLogo from '../../images/linkedin.png';
+import HeaderOptions from '../HeaderOptions/HeaderOptions';
 import HomeIcon from '@material-ui/icons/Home';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import profilePic from './images/v0caqchbtn741.jpg';
+import profilePic from '../../images/v0caqchbtn741.jpg';
 
 function Header() {
     return (

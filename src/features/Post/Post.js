@@ -1,7 +1,7 @@
 import React from 'react'
 import './Post.css';
 import { Avatar } from "@material-ui/core";
-import InputOption from './InputOption';
+import InputOption from '../InputOption/InputOption';
 import { ChatOutlined, SendOutlined, ShareOutlined, ThumbUpAltOutlined } from '@material-ui/icons';
 
 function Post({ name, description, message, photoUrl }) {
