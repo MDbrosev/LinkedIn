@@ -5,6 +5,7 @@ import InputOption from './InputOption';
 import { ChatOutlined, SendOutlined, ShareOutlined, ThumbUpAltOutlined } from '@material-ui/icons';
 
 function Post({ name, description, message, photoUrl }) {
+
     return (
         <div className="post">
             <div className="post_header">
