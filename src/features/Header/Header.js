@@ -8,7 +8,7 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import profilePic from '../../images/v0caqchbtn741.jpg';
+import profilePic from '../../images/profilePic.png';
 
 function Header() {
     return (
