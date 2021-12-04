@@ -1,4 +1,4 @@
-## LinkedIn 
+## LinkedIn Re-implementation
 Developed with React, Material UI, Redux and NoSQL.
 
 ![Login page](https://raw.githubusercontent.com/MDbrosev/linkedin/master/src/images/loginRegister.PNG?token=AFPQ6R2LNNA3NCEKUVM2ME3BVPMDO)
