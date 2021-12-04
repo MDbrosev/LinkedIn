@@ -56,14 +56,14 @@ function Login() {
                 <input 
                     value = {name}
                     onChange = {e => setName(e.target.value)} 
-                    placeholder= "Full name" 
+                    placeholder= "Full Name" 
                     type="text" 
                 />
 
                 <input 
                     value = {profilePic}
                     onChange = {e => setProfilePic(e.target.value)} 
-                    placeholder= "Profile picture URL" 
+                    placeholder= "Profile Picture URL" 
                     type="text" 
                 />
                 
