@@ -7,6 +7,7 @@ import Sidebar from './features/Sidebar/Sidebar';
 import Feed from './features/Feed/Feed';
 import Login from './features/Auth/Login';
 import { auth } from './firebase';
+import Widgets from './features/Widgets/Widgets';
 
 function App() {
   const user = useSelector(selectUser);
@@ -30,12 +31,11 @@ function App() {
   return (
     <div className="app">
       <Header />
-      {/* if there is no user render login page, else render app */}
       {!user ? <Login /> :(
         <div className = "app_body">
           <Sidebar />
           <Feed />
-          {/* Widgets */}        
+          <Widgets />       
         </div>        
       )}
     </div>
