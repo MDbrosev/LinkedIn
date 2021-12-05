@@ -1,7 +1,7 @@
 ## LinkedIn Re-implementation
 Developed with React, Material UI, Redux and NoSQL.
 
-![HomeGif](https://i.giphy.com/media/1jQqTS42iby1R8GOnI/giphy.webp)
+![HomeGif](https://github.com/MDbrosev/LinkedIn/blob/master/src/images/LinkedIn.gif)
 
 <br />
 
