@@ -1,5 +1,5 @@
 ## LinkedIn Re-implementation
-Developed with React, Material UI, Redux and NoSQL.
+Developed with React, Material UI, Redux and NoSQL cloud-based storage.
 
 ![HomeGif](https://github.com/MDbrosev/LinkedIn/blob/master/src/images/LinkedIn.gif)
 
@@ -11,13 +11,31 @@ Developed with React, Material UI, Redux and NoSQL.
 
 ![Home page](https://raw.githubusercontent.com/MDbrosev/linkedin/master/src/images/homepage.PNG?token=AFPQ6R64US3RRJDQY5YHXPLBVPMDM)
 
+
+## Setup
+
+1. Run `npm yarn` to install dependencies.
+2. Rename `firebaseExample.js` to `firebase.js` file in src.
+3. Add your web app's Firebase configuration from project settings.
+4. Run `yarn start`
+
+## Deployment
+
+### Initialization
+1. Run `firebase login`
+2. Run `firebase init`
+3. Select `Hosting`
+4. Select `Use an existing project` and select your firebase project.
+5. What do you want to use as your public directory? `Build`
+6. Configure as a single page app? `Yes`
+
+### Deploy
+1. Run `npm run build`
+2. Run `firebase deploy`
+
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `yarn`
-
-Install dependencies.
 
 ### `yarn start`
 
