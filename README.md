@@ -14,7 +14,7 @@ Developed with React, Material UI, Redux and NoSQL cloud-based storage.
 
 ## Setup
 
-1. Run `npm yarn` to install dependencies.
+1. Run `npm` or `yarn` to install dependencies.
 2. Rename `firebaseExample.js` to `firebase.js` file in src.
 3. Add your web app's Firebase configuration from project settings.
 4. Run `yarn start`
